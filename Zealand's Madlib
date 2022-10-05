@@ -1,0 +1,25 @@
+name1 = input("What is your name?: ")
+time1 = input("Give me a time:")
+class1 = input("Give me a class: ")
+pet1 = input("Give me a animal: ")
+verb1 = input("Give me a verb: ")
+noun1 = input("Give me a building: ")
+person1 = input("Give me a person: ")
+person2 = input("Give me a person: ")
+adj1 = input("Give me a adjective: ")
+vehicle1 = input("Give me a vehicle: ")
+noun2 = input("Give me a noun: ")
+weapon1 = input("Give me a weapon: ")
+fightingaction1 = input("Give me a fighting action: ")
+weapon2 = input("Give me a weapon: ")
+fightingaction2 = input("Give me a fighting action: ")
+bodypart1 = input("Give me a body part: ")
+place1 = input("Give me a place: ")
+
+#all of these are variables that are inserted into the sentence
+
+# actual sentence
+
+madlib = f"Their first class was {class1}, today the teacher brought her pet {pet1}. It was a disaster he {verb1} the {noun1} and the {pet1} mauled your friend {person1}. {person1} called {person2} for help, they responded and decided to head over. {person2} went as fast as he could in his {vehicle1}. {person2} arrived to help with their {adj1} {weapon1}. He started out the battle with a {fightingaction1}. It was blocked by {pet1}. {person2} was fearless in the great battle until {pet1} whipped out a {weapon2} to defend itself. Then {pet1} used a {fightingaction2} knocking everybody's {bodypart1} off and ruled {place1} for the rest of time."
+
+print(madlib)
